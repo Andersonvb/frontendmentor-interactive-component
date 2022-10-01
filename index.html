@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+  <main class="container">
+
+    <article class="card main-card">
+      <img class="card__icon" src="./images/icon-star.svg" alt="Star icon">
+      <h1 class="card__title">How did we do?</h1>
+      <p class="card__paragraph">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+      <ul class="card-buttons">
+        <li><button class="card-buttons__btn card-buttons__one">1</button></li>
+        <li><button class="card-buttons__btn card-buttons__two">2</button></li>
+        <li><button class="card-buttons__btn card-buttons__three">3</button></li>
+        <li><button class="card-buttons__btn card-buttons__four">4</button></li>
+        <li><button class="card-buttons__btn card-buttons__five">5</button></li>
+      </ul>
+      <button class="card__submit-btn">SUBMIT</button>
+    </article>
+      
+    <!-- Rating state end -->
+
+     <!-- Thank you state start -->
+
+    <article class="hidden card thankyou-card">
+      <img src="./images/illustration-thank-you.svg" alt="Thank you image">
+      <span class="thankyou-card__result" ></span>
+      <h1 class="thankyou-card__title">Thank you!</h1>
+      <p class="thankyou-card__paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </article>
+
+    <!-- Thank you state end -->
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/andersonvb">Anderson Valencia</a>.
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
